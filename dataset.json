@@ -1,0 +1,646 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good morning", "Good afternoon",
+        "What's up", "Hey there", "Greetings", "Howdy",
+        "Hi there", "Hello there", "Good day", "Hii",
+        "Helo", "Namaste", "Hola"
+      ],
+      "responses": [
+        "Hello! Welcome to CURAJ Chatbot. I can help you with admissions, fees, courses, eligibility, and more. What would you like to know?",
+        "Hi there! I'm the CURAJ virtual assistant. Feel free to ask me anything about Central University of Rajasthan.",
+        "Hey! How can I help you today? I can answer questions about CURAJ admissions, courses, fees, and eligibility."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you later", "Thanks bye",
+        "See you", "Take care", "Bye bye", "Thank you bye",
+        "Ok bye", "Gotta go", "Later", "Exit", "Quit"
+      ],
+      "responses": [
+        "Goodbye! Feel free to come back anytime you have questions about CURAJ.",
+        "See you later! All the best with your CURAJ journey.",
+        "Bye! Don't hesitate to ask if you need more help about CURAJ."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "That's helpful", "Thanks a lot",
+        "Thank you so much", "Appreciate it", "Helpful", "Great thanks",
+        "Awesome thanks", "Thanks for the help", "Dhanyavaad"
+      ],
+      "responses": [
+        "You're welcome! Let me know if you have more questions.",
+        "Happy to help! Feel free to ask anything else about CURAJ.",
+        "Glad I could help! Is there anything else you'd like to know?"
+      ]
+    },
+    {
+      "tag": "about_curaj",
+      "patterns": [
+        "Tell me about CURAJ", "What is CURAJ",
+        "Central University of Rajasthan", "About the university",
+        "What is Central University of Rajasthan", "CURAJ info",
+        "Give me details about CURAJ", "University information",
+        "About CURAJ", "What does CURAJ stand for",
+        "Where is CURAJ located", "CURAJ location",
+        "Is CURAJ a central university", "CURAJ overview"
+      ],
+      "responses": [
+        "The Central University of Rajasthan (CURAJ) is a central government university established in 2009 by an Act of Parliament. It is located in Bandarsindri, Kishangarh, Ajmer district, Rajasthan. CURAJ is accredited with A++ grade by NAAC (CGPA 3.54) and is a Category-I University. The university offers a wide range of UG, PG, and doctoral programmes across Science, Humanities, Commerce, Management, and Professional streams. Visit https://www.curaj.ac.in/ for more details."
+      ]
+    },
+    {
+      "tag": "ug_programmes",
+      "patterns": [
+        "What UG courses are available", "Undergraduate programmes",
+        "What are the bachelor programmes", "UG courses at CURAJ",
+        "List of UG programmes", "Bachelor degree courses",
+        "What can I study for undergrad", "UG courses list",
+        "B.Sc programmes", "What UG degrees does CURAJ offer",
+        "Undergraduate courses in CURAJ", "BSc courses",
+        "Which BSc is available", "Four year programmes",
+        "B.Tech programmes", "B.Voc courses", "BDes courses",
+        "Hotel management course", "B.Tech at CURAJ"
+      ],
+      "responses": [
+        "CURAJ offers the following UG programmes for 2025-26 admissions:\n\n**Four Year B.Sc. (Hons./Research):**\n- Chemistry\n- Biochemistry\n- Microbiology\n- Environmental Science\n- Biotechnology\n- Physics\n- Computer Science\n- Statistics\n- Mathematics\n- Economics\n- Linguistics\n- Cardiology\n\n**B.Voc Programmes:**\n- Interior Design\n- Robotics and Automation\n\n**B.Tech Programmes:**\n- Electronics and Communication\n- Biomedical Engineering\n\n**Other Programmes:**\n- B.Des (Interior Design)\n- Bachelor of Hotel Management and Catering Technology\n- B.Sc. B.Ed. (Integrated Teacher Education Programme)\n\nAdmission is through CUET (UG) 2026. Visit https://www.curaj.ac.in/ for detailed information."
+      ]
+    },
+    {
+      "tag": "pg_programmes",
+      "patterns": [
+        "What PG courses are available", "Postgraduate programmes",
+        "What are the master programmes", "PG courses at CURAJ",
+        "List of PG programmes", "Master degree courses",
+        "What can I study for postgrad", "PG courses list",
+        "MSc programmes", "MA programmes", "MBA at CURAJ",
+        "MTech at CURAJ", "MPharm courses", "MCom at CURAJ",
+        "What PG degrees does CURAJ offer", "Masters courses"
+      ],
+      "responses": [
+        "CURAJ offers the following PG programmes for 2025-26:\n\n**M.A. Programmes:** English, Hindi, Economics, Culture Media & Studies, Public Policy Law & Governance, Social Work (MSW), Sports Psychology\n\n**M.Sc. Programmes:** Chemistry, Physics, Mathematics, Statistics, Computer Science, Computer Science (Big Data Analytics), Environmental Science, Atmospheric Science, Biochemistry, Biotechnology, Microbiology, Digital Society, Sports Physiology, Sports Biochemistry, Sports Nutrition, Yoga, Neuroscience, Medical Laboratory Technology, Cardiology\n\n**M.Sc. B.Ed. (Innovative):** Mathematics, Economics, Physics, Chemistry\n\n**Professional Programmes:** MBA, M.Tech (CSE), M.Com, M.Pharm (Pharmaceutical Chemistry, Pharmaceutics, Pharmacology), M.Plan\n\nAdmission is through CUET (PG) 2026."
+      ]
+    },
+    {
+      "tag": "ug_fee_structure",
+      "patterns": [
+        "What is UG fee structure", "UG fees", "Undergraduate fees",
+        "How much is UG fee", "BSc fee structure", "UG semester fee",
+        "Fee for bachelor programme", "UG tuition fee",
+        "What are the UG fees at CURAJ", "Bachelor degree fees",
+        "How much does UG cost", "Fee structure for BSc",
+        "UG hostel fee", "BSc fees per semester",
+        "Undergraduate fee details", "Four year programme fees",
+        "BVoc fee", "BTech fee structure", "BDes fees"
+      ],
+      "responses": [
+        "UG Fee Structure for 2025-26 (per semester):\n\n**Category A** (Maths, Economics, Statistics, Linguistics - no lab):\n- Semester Fee: Rs. 6,525\n- With Hostel: Rs. 15,025\n\n**Category B** (Physics, Chemistry, Biotech, Micro, Biochem, Env Sci, CS, B.Sc.B.Ed. - with lab):\n- Semester Fee: Rs. 8,025\n- With Hostel: Rs. 16,525\n\n**Category C** (Cardiology, B.Voc Interior Design, B.Voc Robotics - professional):\n- Semester Fee: Rs. 20,025\n- With Hostel: Rs. 28,525\n\nFee includes: Tuition, Development, Exam, Library, Sports, Medical, Insurance, etc.\nMess charges: Rs. 9,000 lump sum (Rs. 3,000 deposit + 2 months advance), actual basis thereafter.\n\nNote: B.Tech fees may differ - check the university website for details."
+      ]
+    },
+    {
+      "tag": "pg_fee_structure",
+      "patterns": [
+        "What is PG fee structure", "PG fees", "Postgraduate fees",
+        "How much is PG fee", "MSc fee structure", "PG semester fee",
+        "Fee for master programme", "PG tuition fee",
+        "What are the PG fees at CURAJ", "Master degree fees",
+        "How much does PG cost", "Fee structure for MSc",
+        "PG hostel fee", "MBA fee structure", "MTech fees",
+        "MPharm fees", "MA fee structure", "MCom fees",
+        "Postgraduate fee details", "Masters programme fees"
+      ],
+      "responses": [
+        "PG Fee Structure for 2025-26 (per semester):\n\n**Category A** (MA English, Hindi, Economics, Social Work, Public Policy, MCom, MSc Maths, Stats, MSc.B.Ed Maths/Econ - no lab):\n- Semester Fee: Rs. 6,525\n- With Hostel: Rs. 15,025\n\n**Category B** (MA Culture Media, MSc Chemistry, CS, CS Big Data, Physics, Env Sci, Atmospheric Sci, Yoga, Biochemistry, Biotech, Microbiology, Digital Society, MSc.B.Ed Physics/Chemistry - with lab):\n- Semester Fee: Rs. 8,025\n- With Hostel: Rs. 16,525\n\n**Category C** (MBA, MTech CSE, MSc Sports Biochemistry/Physiology/Nutrition, MA/MSc Sports Psychology, MPharm all branches, MSc Neuroscience, MSc Medical Lab Tech - professional):\n- Semester Fee: Rs. 20,025\n- With Hostel: Rs. 28,525\n\nMess charges: Rs. 9,000 lump sum (Rs. 3,000 deposit + 2 months advance)."
+      ]
+    },
+    {
+      "tag": "fee_breakup",
+      "patterns": [
+        "What is the fee breakup", "Fee components", "Fee details",
+        "What does the fee include", "Tuition fee amount",
+        "Development fee", "Exam fee amount", "Library fee",
+        "Sports fee", "Medical fee", "Insurance fee",
+        "Lab fee amount", "What all is included in fees",
+        "Breakup of semester fee", "Fee heads"
+      ],
+      "responses": [
+        "Fee Breakup per semester (2025-26):\n\n1. Tuition Fee: Rs. 2,500 (Cat A & B) / Rs. 14,500 (Cat C)\n2. Development Fee: Rs. 1,500\n3. Exam Fee: Rs. 800\n4. Library/E-resources/ICT: Rs. 600\n5. Sports/Yoga/Fitness: Rs. 300\n6. Corpus Fund: Rs. 250\n7. Medical Fee: Rs. 200\n8. Alumni Contribution: Rs. 150\n9. Student Aid/Welfare Fund: Rs. 125\n10. Annual Cashless Insurance: Rs. 100\n11. Lab Fee: Rs. 1,500 (Cat B & C only)\n\nHostel (if applicable):\n- Hostel Fee: Rs. 6,000\n- Electricity & Water: Rs. 2,500\n\nMess Charges: Rs. 9,000 lump sum initially (on actual basis later)."
+      ]
+    },
+    {
+      "tag": "hostel_fee",
+      "patterns": [
+        "What is the hostel fee", "Hostel charges", "Hostel cost",
+        "How much is hostel", "Hostel fee per semester",
+        "Hostel accommodation fee", "Cost of hostel at CURAJ",
+        "Hostel electricity charges", "Hostel water charges",
+        "Mess fee", "Mess charges", "How much is mess fee",
+        "Hostel and mess charges"
+      ],
+      "responses": [
+        "Hostel Fee at CURAJ (2025-26):\n\n- Hostel Fee: Rs. 6,000 per semester\n- Electricity and Water Charges: Rs. 2,500 per semester\n- Total Hostel Charges: Rs. 8,500 per semester\n\nMess Charges: A lump sum of Rs. 9,000 is collected initially (including Rs. 3,000 deposit and 2 months advance). After that, mess charges are on actual basis.\n\nSo total hostel + mess initial payment = Rs. 17,500 approximately (per semester hostel fee + initial mess deposit)."
+      ]
+    },
+    {
+      "tag": "cuet_general",
+      "patterns": [
+        "What is CUET", "Tell me about CUET", "CUET exam",
+        "How to apply for CUET", "CUET admission process",
+        "Is CUET required for CURAJ", "CUET entrance test",
+        "Common University Entrance Test", "CUET 2026",
+        "Do I need CUET for CURAJ", "CUET exam details",
+        "CUET registration", "How to get into CURAJ"
+      ],
+      "responses": [
+        "CUET (Common University Entrance Test) is conducted by NTA (National Testing Agency) for admission to Central Universities including CURAJ. There are two exams:\n\n1. **CUET (UG)** - For undergraduate programmes (B.Sc., B.Tech, B.Voc, B.Des, BHM)\n2. **CUET (PG)** - For postgraduate programmes (M.A., M.Sc., MBA, M.Tech, M.Pharm, etc.)\n\nCUET scores are mandatory for admission to CURAJ. You need to apply through the NTA website and select CURAJ as your preferred university. Check https://www.curaj.ac.in/ for the latest CUET notification and important dates."
+      ]
+    },
+    {
+      "tag": "cuet_ug_subjects",
+      "patterns": [
+        "CUET UG subject codes", "What subjects for CUET UG",
+        "CUET UG domain subjects", "Which subjects to choose in CUET UG",
+        "CUET subjects for BSc", "Domain subjects for CUET UG",
+        "CUET subject mapping", "CUET UG paper codes",
+        "What to study for CUET UG", "CUET UG syllabus subjects",
+        "General Aptitude Test CUET", "GAT CUET"
+      ],
+      "responses": [
+        "CUET (UG) 2026 Subject Mapping for CURAJ:\n\n**Physics, Chemistry, Mathematics** required for:\n- B.Sc. Physics, Computer Science, Statistics, Mathematics, Electronics & Communication (B.Tech), B.Voc Robotics\n\n**Physics, Chemistry, Biology** required for:\n- B.Sc. Biochemistry, Microbiology, Biotechnology, Cardiology\n\n**Either PCM or PCB** accepted for:\n- B.Sc. Chemistry, Environmental Science, B.Tech Biomedical Engineering\n\n**General Aptitude Test (GAT)** for:\n- B.Sc. Economics (with Maths), B.Sc. Linguistics, B.Voc Interior Design, BHM, B.Des Interior Design\n\nNote: Some programmes also accept specific optional language papers. Check exact CUET paper codes on the NTA/CURAJ website."
+      ]
+    },
+    {
+      "tag": "cuet_pg_codes",
+      "patterns": [
+        "CUET PG paper codes", "PG test paper codes",
+        "CUET PG subject codes", "What is COQP08",
+        "What is SCQP08", "CUET PG code for MBA",
+        "CUET PG code list", "Paper code for MSc",
+        "PG entrance paper codes", "CUET PG test papers",
+        "COQP codes", "SCQP codes", "HUQP codes", "LAQP codes"
+      ],
+      "responses": [
+        "CUET (PG) 2026 Test Paper Codes for CURAJ:\n\n- **COQP08**: M.Com\n- **COQP10**: M.A./M.Sc. Economics, M.Sc.B.Ed. Economics\n- **COQP11**: M.Sc. Digital Society\n- **COQP12**: MBA\n- **COQP17**: M.A. Culture Media & Studies\n- **COQP20**: M.Sc. Sports Physiology, Sports Biochemistry, Sports Nutrition\n- **COQP21**: M.Sc. Yoga\n- **HUQP18**: M.A. Public Policy, Law & Governance\n- **HUQP20**: M.A./M.Sc. Sports Psychology\n- **HUQP21**: M.A. Social Work (MSW)\n- **LAQP01**: M.A. English\n- **LAQP02**: M.A. Hindi\n- **MTQP04**: M.Tech CSE\n- **SCQP08**: M.Sc. Chemistry, M.Sc.B.Ed Chemistry\n- **SCQP09**: M.Sc. Computer Science, CS Big Data Analytics\n- **SCQP11**: M.Sc. Environmental Science\n- **SCQP17**: M.Sc. Biochemistry, Biotechnology, Microbiology, Neuroscience\n- **SCQP19**: M.Sc. Mathematics, M.Sc.B.Ed Maths\n- **SCQP20**: M.Sc. Medical Lab Technology\n- **SCQP23**: M.Pharm (all branches)\n- **SCQP24**: M.Sc. Physics, M.Sc.B.Ed Physics\n- **SCQP27**: M.Sc. Statistics\n- **SCQP29**: M.Sc. Atmospheric Science\n- **SCQP04**: M.Plan"
+      ]
+    },
+    {
+      "tag": "eligibility_msc_cs",
+      "patterns": [
+        "Eligibility for MSc Computer Science", "MSc CS eligibility",
+        "Who can apply for MSc Computer Science",
+        "Qualification for MSc CS", "MSc CS admission requirements",
+        "Can I apply for MSc CS", "MSc Computer Science requirements",
+        "MSc CS Big Data eligibility", "MSc Big Data Analytics eligibility",
+        "Eligibility MSc CS Big Data"
+      ],
+      "responses": [
+        "**M.Sc. Computer Science Eligibility:**\nBCA/B.Sc. Computer Science/B.Sc. IT/B.Tech CS/B.Tech IT or equivalent with minimum 50% marks (45% for SC/ST/OBC/PWD/EWS). Also eligible: B.Sc. with Computer Science as one subject, or Graduation with Mathematics + 12th in Science stream.\nCUET PG Paper Code: SCQP09\n\n**M.Sc. Computer Science (Big Data Analytics) Eligibility:**\n- Must have studied Mathematics in 12th Standard\n- UG degree with Mathematics/Statistics/Computer Science as core subject in each semester from UGC-recognized university\n- Minimum 50% marks (45% for reserved categories)\nCUET PG Paper Code: SCQP09"
+      ]
+    },
+    {
+      "tag": "eligibility_mba",
+      "patterns": [
+        "Eligibility for MBA", "MBA eligibility",
+        "Who can apply for MBA", "MBA admission requirements",
+        "Qualification for MBA at CURAJ", "Can I apply for MBA",
+        "MBA requirements", "MBA entrance CURAJ"
+      ],
+      "responses": [
+        "**MBA Eligibility at CURAJ:**\nBachelor's degree from any recognized University in any discipline with 50% marks or equivalent grade in aggregate for general category and 45% for SC/ST/OBC/PWD/EWS candidates.\n\nCUET PG Paper Code: COQP12\n\nThe MBA programme falls under Category C (Professional), so semester fee is Rs. 20,025 (Rs. 28,525 with hostel)."
+      ]
+    },
+    {
+      "tag": "eligibility_mtech",
+      "patterns": [
+        "Eligibility for MTech", "MTech eligibility",
+        "MTech CSE eligibility", "Who can apply for MTech",
+        "MTech admission requirements", "MTech Computer Science eligibility",
+        "Can I apply for MTech", "MTech requirements"
+      ],
+      "responses": [
+        "**M.Tech Computer Science & Engineering Eligibility:**\nB.E./B.Tech in Computer Science/CSE/CS&T/IT, or MCA, or M.Sc. (CS/IT) or equivalent from a recognized University/Institute with 50% marks (45% for SC/ST/OBC/PWD/EWS).\n\nCUET PG Paper Code: MTQP04\n\nThis programme falls under Category C (Professional), so semester fee is Rs. 20,025 (Rs. 28,525 with hostel)."
+      ]
+    },
+    {
+      "tag": "eligibility_mcom",
+      "patterns": [
+        "Eligibility for MCom", "MCom eligibility",
+        "Who can apply for MCom", "MCom admission requirements",
+        "Qualification for MCom", "Can I apply for MCom",
+        "MCom requirements", "Master of Commerce eligibility"
+      ],
+      "responses": [
+        "**M.Com Eligibility at CURAJ:**\nB.Com (Hons.)/B.Com with minimum 50% marks or equivalent grade in aggregate including all subjects studied at B.Com level for general category and 45% for SC/ST/OBC/PWD/EWS candidates.\n\nCUET PG Paper Code: COQP08\n\nM.Com falls under Category A (no lab), so semester fee is Rs. 6,525 (Rs. 15,025 with hostel)."
+      ]
+    },
+    {
+      "tag": "eligibility_ma_english",
+      "patterns": [
+        "Eligibility for MA English", "MA English eligibility",
+        "Who can apply for MA English", "MA English admission requirements",
+        "Qualification for MA English", "Can I apply for MA English",
+        "MA English requirements"
+      ],
+      "responses": [
+        "**M.A. English Eligibility at CURAJ:**\nBachelor's degree with English as one of the subjects from any recognized University with minimum 50% marks or equivalent grade in aggregate for general category and 45% for SC/ST/OBC/PWD/EWS candidates.\n\nCUET PG Paper Code: LAQP01\n\nM.A. English falls under Category A (no lab), so semester fee is Rs. 6,525 (Rs. 15,025 with hostel)."
+      ]
+    },
+    {
+      "tag": "eligibility_ma_hindi",
+      "patterns": [
+        "Eligibility for MA Hindi", "MA Hindi eligibility",
+        "Who can apply for MA Hindi", "MA Hindi requirements",
+        "Qualification for MA Hindi"
+      ],
+      "responses": [
+        "**M.A. Hindi Eligibility at CURAJ:**\nBachelor's Degree in any discipline from any recognized University with Hindi as one of the subjects or studied in Hindi medium with minimum 50% marks or equivalent grade for general category and 45% for SC/ST/OBC/PWD/EWS candidates.\n\nCUET PG Paper Code: LAQP02"
+      ]
+    },
+    {
+      "tag": "eligibility_msc_chemistry",
+      "patterns": [
+        "Eligibility for MSc Chemistry", "MSc Chemistry eligibility",
+        "Who can apply for MSc Chemistry", "MSc Chemistry requirements",
+        "Qualification for MSc Chemistry", "MSc Chemistry admission"
+      ],
+      "responses": [
+        "**M.Sc. Chemistry Eligibility at CURAJ:**\nB.Sc. degree or its equivalent from a recognized University with minimum 50% marks or equivalent grade for general category and 45% for SC/ST/OBC/PWD/EWS candidates with Chemistry as one of the main subjects.\n\nCUET PG Paper Code: SCQP08\n\nM.Sc. Chemistry falls under Category B (with lab), so semester fee is Rs. 8,025 (Rs. 16,525 with hostel)."
+      ]
+    },
+    {
+      "tag": "eligibility_msc_physics",
+      "patterns": [
+        "Eligibility for MSc Physics", "MSc Physics eligibility",
+        "Who can apply for MSc Physics", "MSc Physics requirements",
+        "Qualification for MSc Physics", "MSc Physics admission"
+      ],
+      "responses": [
+        "**M.Sc. Physics Eligibility at CURAJ:**\nB.E./B.Tech or B.Sc. degree with Physics as one of the subjects from a recognized University with minimum 50% marks or equivalent grade for general category and 45% for SC/ST/OBC/PWD/EWS candidates.\n\nCUET PG Paper Code: SCQP24\n\nM.Sc. Physics falls under Category B (with lab), so semester fee is Rs. 8,025 (Rs. 16,525 with hostel)."
+      ]
+    },
+    {
+      "tag": "eligibility_msc_maths",
+      "patterns": [
+        "Eligibility for MSc Mathematics", "MSc Maths eligibility",
+        "Who can apply for MSc Mathematics", "MSc Maths requirements",
+        "Qualification for MSc Maths", "MSc Mathematics admission"
+      ],
+      "responses": [
+        "**M.Sc. Mathematics Eligibility at CURAJ:**\nB.Sc. degree in Mathematics from a recognized university with minimum 50% marks or equivalent grade for general category and 45% for SC/ST/OBC/PWD/EWS candidates.\n\nCUET PG Paper Code: SCQP19\n\nM.Sc. Mathematics falls under Category A (no lab), so semester fee is Rs. 6,525 (Rs. 15,025 with hostel)."
+      ]
+    },
+    {
+      "tag": "eligibility_msc_statistics",
+      "patterns": [
+        "Eligibility for MSc Statistics", "MSc Statistics eligibility",
+        "Who can apply for MSc Statistics", "MSc Stats requirements",
+        "Qualification for MSc Statistics"
+      ],
+      "responses": [
+        "**M.Sc. Statistics Eligibility at CURAJ:**\nB.Sc./B.A. in Statistics/Mathematics with: (i) Statistics as a subject for minimum 2 years in annual system OR (ii) minimum 4 papers from core Statistics as per UGC model curriculum in semester system. Minimum 50% marks in graduation (45% for SC/ST/OBC/PWD/EWS).\n\nCUET PG Paper Code: SCQP27"
+      ]
+    },
+    {
+      "tag": "eligibility_mpharm",
+      "patterns": [
+        "Eligibility for MPharm", "MPharm eligibility",
+        "Who can apply for MPharm", "MPharm admission requirements",
+        "Pharmacy masters eligibility", "MPharm Pharmaceutical Chemistry",
+        "MPharm Pharmaceutics eligibility", "MPharm Pharmacology eligibility",
+        "Can I apply for MPharm"
+      ],
+      "responses": [
+        "**M.Pharm Eligibility at CURAJ (all branches - Pharmaceutical Chemistry, Pharmaceutics, Pharmacology):**\n\n1. B.Pharm degree from an Indian University approved by Pharmacy Council of India with not less than 55% marks (50% for SC/ST/OBC/PWD/EWS) aggregate of four years.\n2. Student must have Registration with State Pharmacy Council or obtain it within one month of admission (otherwise admission cancelled).\n\nCUET PG Paper Code: SCQP23\n\nM.Pharm falls under Category C (Professional), so semester fee is Rs. 20,025 (Rs. 28,525 with hostel)."
+      ]
+    },
+    {
+      "tag": "eligibility_msc_biotech",
+      "patterns": [
+        "Eligibility for MSc Biotechnology", "MSc Biotech eligibility",
+        "MSc Biochemistry eligibility", "MSc Microbiology eligibility",
+        "Who can apply for MSc Biotechnology",
+        "MSc Biotech requirements", "MSc life sciences eligibility",
+        "Eligibility for MSc Biochemistry", "Eligibility for MSc Microbiology"
+      ],
+      "responses": [
+        "**M.Sc. Biotechnology / Biochemistry / Microbiology Eligibility at CURAJ:**\nBachelor's degree in Microbiology/Zoology/Botany/Life Sciences/Biochemistry/Genetics/Biotechnology/Medicine/Pharmacy or any other discipline of Biological Sciences with minimum 50% marks (or equivalent grade) for general category and 45% for SC/ST/OBC/PWD/EWS candidates.\n\nCUET PG Paper Code: SCQP17\n\nThese programmes fall under Category B (with lab), so semester fee is Rs. 8,025 (Rs. 16,525 with hostel)."
+      ]
+    },
+    {
+      "tag": "eligibility_msc_env_science",
+      "patterns": [
+        "Eligibility for MSc Environmental Science",
+        "MSc Environmental Science eligibility",
+        "Who can apply for MSc Environmental Science",
+        "MSc Env Sci requirements", "Environmental Science admission"
+      ],
+      "responses": [
+        "**M.Sc. Environmental Science Eligibility at CURAJ:**\nBachelor's degree from a recognized University in any discipline of Science/Engineering with minimum 50% marks or equivalent grade for general category and 45% for SC/ST/OBC/PWD/EWS candidates.\n\nCUET PG Paper Code: SCQP11"
+      ]
+    },
+    {
+      "tag": "eligibility_msc_atmospheric",
+      "patterns": [
+        "Eligibility for MSc Atmospheric Science",
+        "MSc Atmospheric Science eligibility",
+        "Atmospheric Science admission requirements"
+      ],
+      "responses": [
+        "**M.Sc. Atmospheric Science Eligibility at CURAJ:**\nBachelor's degree from a recognized University in any discipline of Science/Engineering (Physics or Mathematics as one of the subjects) with minimum 50% marks or equivalent grade for general category and 45% for SC/ST/OBC/PWD/EWS candidates.\n\nCUET PG Paper Code: SCQP29"
+      ]
+    },
+    {
+      "tag": "eligibility_msw",
+      "patterns": [
+        "Eligibility for MSW", "Master of Social Work eligibility",
+        "Who can apply for MSW", "Social Work MA eligibility",
+        "MSW requirements", "MSW admission"
+      ],
+      "responses": [
+        "**M.A. Social Work (MSW) Eligibility at CURAJ:**\nBachelor's degree from any recognized University with minimum 50% marks or equivalent grade for general category and 45% for SC/ST/OBC/PWD/EWS candidates.\n\nCUET PG Paper Code: HUQP21"
+      ]
+    },
+    {
+      "tag": "eligibility_msc_digital_society",
+      "patterns": [
+        "Eligibility for MSc Digital Society",
+        "Digital Society eligibility", "MSc Digital Society requirements",
+        "Who can apply for Digital Society"
+      ],
+      "responses": [
+        "**M.Sc. Digital Society Eligibility at CURAJ:**\nGraduation degree (three years) in any discipline from a recognized university with minimum 55% marks or equivalent grade for General category and 50% for SC/ST/OBC/PWD/EWS. The Graduate Degree may be in Sciences, Social Sciences, Commerce and Management, Arts and Humanities, Computer Sciences, or Engineering.\n\nCUET PG Paper Code: COQP11\n\nNote: This programme requires higher minimum marks (55%) compared to most other programmes."
+      ]
+    },
+    {
+      "tag": "eligibility_msc_neuroscience",
+      "patterns": [
+        "Eligibility for MSc Neuroscience", "Neuroscience eligibility",
+        "MSc Neuroscience requirements", "Who can apply for Neuroscience"
+      ],
+      "responses": [
+        "**M.Sc. Neuroscience Eligibility at CURAJ:**\nGraduation with 55% marks with Biology/Biotechnology/Biochemistry/Microbiology/Neurobiology/Neuroscience/Zoology/Pharmacology along with Chemistry (50% for reserved categories)\nOR\nMBBS/BDS/BHMS/BUMS/BVSc/BPT/BPharm/BMLS/MPharm/BSc Nursing/BAMS or equivalent with at least 55% marks (50% for reserved categories).\n\nCUET PG Paper Code: SCQP17"
+      ]
+    },
+    {
+      "tag": "eligibility_mplan",
+      "patterns": [
+        "Eligibility for MPlan", "Master of Planning eligibility",
+        "MPlan requirements", "Who can apply for MPlan"
+      ],
+      "responses": [
+        "**M.Plan (Master of Planning) Eligibility at CURAJ:**\nBachelor's Degree in Planning, Architecture, Civil Engineering, or Architectural Engineering with 55% marks\nOR\nM.A. Geography, M.Sc. Environmental Science, MA/MSc Economics with 60% marks from a recognized university.\n\nCUET PG Paper Code: SCQP04"
+      ]
+    },
+    {
+      "tag": "eligibility_msc_yoga",
+      "patterns": [
+        "Eligibility for MSc Yoga", "MSc Yoga eligibility",
+        "Who can apply for MSc Yoga", "Yoga programme requirements"
+      ],
+      "responses": [
+        "**M.Sc. Yoga Eligibility at CURAJ:**\nBachelor's Degree in any discipline of Science or Bachelor's degree in Yoga with not less than 50% marks or equivalent grade from a recognized University. Up to 5% relaxation in minimum marks is granted to SC/ST/OBC/PWD candidates.\n\nCUET PG Paper Code: COQP21"
+      ]
+    },
+    {
+      "tag": "eligibility_sports_programmes",
+      "patterns": [
+        "Eligibility for Sports programmes", "Sports Physiology eligibility",
+        "Sports Biochemistry eligibility", "Sports Nutrition eligibility",
+        "Sports Psychology eligibility", "MSc Sports programmes",
+        "Sports science eligibility CURAJ"
+      ],
+      "responses": [
+        "**Sports Programme Eligibility at CURAJ:**\n\n*M.Sc. Sports Physiology:* Bachelor's in Physiology/Life Sciences/Science/Medical degree with 50% (45% reserved)\n\n*M.Sc. Sports Biochemistry:* Bachelor's in Biochemistry/Life Sciences/Science/Medical degree with 50% (45% reserved)\n\n*M.Sc. Sports Nutrition:* Bachelor's in Life Sciences/Nutrition/Science/Medical degree with 50% (45% reserved)\n\n*M.A./M.Sc. Sports Psychology:* Bachelor's in Arts/Science with Psychology as subject with 50% (45% reserved)\n\nCUET Paper Codes: COQP20 (Physiology/Biochemistry/Nutrition), HUQP20 (Sports Psychology)\nAll fall under Category C (Professional): Rs. 20,025/semester."
+      ]
+    },
+    {
+      "tag": "eligibility_ug_bsc_physics",
+      "patterns": [
+        "Eligibility for BSc Physics", "BSc Physics eligibility",
+        "Who can apply for BSc Physics", "UG Physics requirements",
+        "BSc Physics admission requirements"
+      ],
+      "responses": [
+        "**B.Sc. Physics (Hons./Research) Eligibility:**\n10+2 in Science Stream from a recognized board with Physics and Mathematics as optional subjects having 50% marks or equivalent grade in aggregate for general category and 45% for SC/ST/OBC/PWD/EWS candidates.\n\nCUET (UG) Domain Subjects: Physics, Chemistry, Mathematics\n\nThis is a Four Year programme. Falls under Fee Category B (with lab): Rs. 8,025/semester."
+      ]
+    },
+    {
+      "tag": "eligibility_ug_bsc_cs",
+      "patterns": [
+        "Eligibility for BSc Computer Science", "BSc CS eligibility",
+        "Who can apply for BSc Computer Science", "UG CS requirements",
+        "BSc Computer Science admission", "BSc CS CURAJ",
+        "BSc CS requirements"
+      ],
+      "responses": [
+        "**B.Sc. Computer Science (Hons./Research) Eligibility:**\n10+2 in ANY stream from a recognized board with Mathematics as one of the optional subjects having 50% marks or equivalent grade in aggregate for general category and 45% for SC/ST/OBC/PWD/EWS candidates.\n\nCUET (UG) Domain Subjects: Physics, Chemistry, Mathematics\n\nNote: Unlike most B.Sc. programmes, B.Sc. CS accepts students from any stream (not just Science), as long as they have Mathematics.\n\nFour Year programme. Fee Category B (with lab): Rs. 8,025/semester."
+      ]
+    },
+    {
+      "tag": "eligibility_ug_btech",
+      "patterns": [
+        "Eligibility for BTech", "BTech eligibility",
+        "BTech ECE eligibility", "BTech Biomedical eligibility",
+        "Who can apply for BTech", "BTech requirements CURAJ",
+        "BTech admission requirements"
+      ],
+      "responses": [
+        "**B.Tech Eligibility at CURAJ:**\n\n*B.Tech Electronics & Communication:*\n10+2 with minimum 5 subjects including Physics, Chemistry, Mathematics with at least 75% aggregate marks (65% for SC/ST/PwD).\n\n*B.Tech Biomedical Engineering:*\n10+2 with Physics, Chemistry, Mathematics OR Physics, Chemistry, Mathematics & Biology with at least 75% aggregate marks (65% for SC/ST/PwD).\n\nCUET (UG) Domain Subjects: Physics, Chemistry, Mathematics\n\n**Important:** B.Tech admission is subject to availability of seats after JoSAA/CSAB counselling process."
+      ]
+    },
+    {
+      "tag": "eligibility_ug_bvoc",
+      "patterns": [
+        "Eligibility for BVoc", "BVoc eligibility",
+        "BVoc Interior Design eligibility", "BVoc Robotics eligibility",
+        "Who can apply for BVoc"
+      ],
+      "responses": [
+        "**B.Voc Eligibility at CURAJ:**\n\n*B.Voc (Interior Design):*\n10+2 in Science/Arts/Commerce with at least 50% marks for UR and 45% for SC/ST/OBC/PWD/EWS candidates.\nCUET Domain: General Aptitude Test\n\n*B.Voc (Robotics and Automation):*\n10+2 in Science with Physics, Chemistry and Mathematics with at least 50% marks for UR and 45% for SC/ST/OBC/PWD/EWS.\nCUET Domain: Physics, Chemistry, Mathematics\n\nBoth fall under Fee Category C: Rs. 20,025/semester."
+      ]
+    },
+    {
+      "tag": "eligibility_ug_hotel_mgmt",
+      "patterns": [
+        "Eligibility for Hotel Management", "BHM eligibility",
+        "Hotel Management admission", "Catering Technology eligibility",
+        "Bachelor of Hotel Management requirements"
+      ],
+      "responses": [
+        "**Bachelor of Hotel Management and Catering Technology Eligibility:**\n10+2 with minimum 50% marks from a recognized board (45% for SC/ST/OBC/PWD/EWS) with English as medium of instruction.\n\nCUET (UG) Domain: General Aptitude Test\n\nThis is a Four Year programme."
+      ]
+    },
+    {
+      "tag": "eligibility_ug_bdes",
+      "patterns": [
+        "Eligibility for BDes", "BDes eligibility",
+        "BDes Interior Design eligibility", "Bachelor of Design requirements",
+        "BDes admission CURAJ"
+      ],
+      "responses": [
+        "**B.Des (Interior Design) Eligibility:**\n10+2 pass in Science/Arts/Commerce with at least 50% marks for UR and 45% for SC/ST/OBC/PWD/EWS candidates.\n\nCUET (UG) Domain: General Aptitude Test, Fine Arts/Visual Arts/Commercial Arts"
+      ]
+    },
+    {
+      "tag": "eligibility_ma_economics",
+      "patterns": [
+        "Eligibility for MA Economics", "MA Economics eligibility",
+        "MSc Economics eligibility", "Economics PG eligibility",
+        "Who can apply for MA Economics"
+      ],
+      "responses": [
+        "**M.A. Economics / M.Sc. B.Ed. Economics Eligibility at CURAJ:**\n\n*M.A. Economics:* Bachelor's degree with Economics as one of the subjects from any recognized University with minimum 50% marks for general category and 45% for SC/ST/OBC/PWD/EWS.\n\n*M.Sc. B.Ed. (Innovative) Economics:* B.Sc./B.A./BBA Degree with minimum 50% marks for general (45% reserved) with Economics as one of the main subjects.\n\nCUET PG Paper Code: COQP10"
+      ]
+    },
+    {
+      "tag": "eligibility_msc_med_lab",
+      "patterns": [
+        "Eligibility for MSc Medical Laboratory Technology",
+        "Medical Lab Technology eligibility", "MSc MLT eligibility",
+        "MLT admission requirements"
+      ],
+      "responses": [
+        "**M.Sc. Medical Laboratory Technology Eligibility at CURAJ:**\nB.Sc. Medical Laboratory Technology, Life Sciences, Biological Sciences, Biomedical Sciences, Biochemistry, Microbiology, Biotechnology, BAMS, or MBBS degree in the relevant field with at least 55% marks (50% for SC/ST/OBC/PWD/EWS).\n\nCUET PG Paper Code: SCQP20\n\nFalls under Category C (Professional): Rs. 20,025/semester."
+      ]
+    },
+    {
+      "tag": "reservation_policy",
+      "patterns": [
+        "What is the reservation policy", "Reserved category marks",
+        "SC ST relaxation", "OBC relaxation in marks",
+        "EWS reservation", "PWD quota", "Category wise marks",
+        "Relaxation for reserved categories", "SC ST OBC eligibility marks"
+      ],
+      "responses": [
+        "Reservation and Marks Relaxation at CURAJ:\n\nMost programmes require:\n- **General/UR Category:** 50% marks minimum in qualifying exam\n- **SC/ST/OBC/PWD/EWS:** 45% marks minimum (5% relaxation)\n\nExceptions:\n- M.Sc. Digital Society: 55% (General), 50% (Reserved)\n- M.Pharm: 55% (General), 50% (Reserved)\n- M.Sc. Neuroscience: 55% (General), 50% (Reserved)\n- M.Sc. Medical Lab Technology: 55% (General), 50% (Reserved)\n- M.Plan: 55-60% depending on qualifying degree\n- B.Tech: 75% (General), 65% (SC/ST/PwD)\n\nReservation seats are as per Government of India norms."
+      ]
+    },
+    {
+      "tag": "hostel_facilities",
+      "patterns": [
+        "Hostel facilities at CURAJ", "Is hostel available",
+        "Hostel in CURAJ", "Campus hostel", "Accommodation at CURAJ",
+        "Boys hostel", "Girls hostel", "Hostel details",
+        "Is hostel compulsory", "Hostel life at CURAJ",
+        "Hostel rooms", "Where do students stay"
+      ],
+      "responses": [
+        "CURAJ provides hostel accommodation on campus. Key details:\n\n- Hostel Fee: Rs. 6,000 per semester\n- Electricity & Water: Rs. 2,500 per semester\n- Mess Charges: Rs. 9,000 lump sum initially (including Rs. 3,000 deposit + 2 months advance), then on actual basis\n- Separate hostels for boys and girls\n- The campus is located in Bandarsindri, Kishangarh, so hostel is recommended\n\nFor detailed hostel facilities and rules, visit https://www.curaj.ac.in/"
+      ]
+    },
+    {
+      "tag": "campus_facilities",
+      "patterns": [
+        "What facilities are available", "Campus facilities",
+        "Library at CURAJ", "Sports facility", "Medical facility",
+        "WiFi on campus", "Lab facilities", "Computer lab",
+        "What does the campus have", "Infrastructure at CURAJ"
+      ],
+      "responses": [
+        "CURAJ Campus Facilities include:\n\n- Central Library with e-resources and ICT support\n- Well-equipped laboratories for Science and Engineering programmes\n- Sports and Yoga/Fitness facilities\n- Medical facility on campus (covered by Medical Fee)\n- Annual Cashless Health Insurance for students\n- Hostel accommodation with mess\n- Student Aid/Welfare Fund support\n\nThe university is NAAC A++ accredited (CGPA 3.54) and is a Category-I University. For detailed campus information, visit https://www.curaj.ac.in/"
+      ]
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "Placements at CURAJ", "Is there placement cell",
+        "Job placement", "Campus recruitment", "Companies visiting CURAJ",
+        "Placement record", "Career opportunities after CURAJ",
+        "Placement statistics"
+      ],
+      "responses": [
+        "CURAJ has a Training and Placement Cell that coordinates campus recruitment drives. The university being a Central University with NAAC A++ accreditation attracts various companies for campus placements. For the latest placement statistics, companies visiting campus, and career support services, please visit the official website at https://www.curaj.ac.in/ or contact the Placement Cell directly."
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "Contact CURAJ", "University phone number", "CURAJ address",
+        "How to contact CURAJ", "Email of CURAJ", "Where is CURAJ",
+        "CURAJ contact details", "University location",
+        "How to reach CURAJ", "CURAJ campus address"
+      ],
+      "responses": [
+        "Central University of Rajasthan (CURAJ)\nAddress: NH-8, Bandarsindri, Tehsil Kishangarh, District Ajmer, Rajasthan - 305817\n\nWebsite: https://www.curaj.ac.in/\n\nFor specific queries, you can reach out through the contact section on the official website. The university is located on NH-8 near Kishangarh, Ajmer district, Rajasthan."
+      ]
+    },
+    {
+      "tag": "admission_process",
+      "patterns": [
+        "How to take admission", "Admission process",
+        "Steps for admission", "How to apply to CURAJ",
+        "Admission procedure", "How to get admitted",
+        "What is the admission process", "Application process",
+        "When does admission start", "How do I apply"
+      ],
+      "responses": [
+        "Admission Process at CURAJ:\n\n1. **Register for CUET:** Apply through NTA website for CUET (UG) or CUET (PG) as applicable\n2. **Choose correct paper codes:** Select the right test paper code based on your desired programme (refer to CURAJ's CUET mapping)\n3. **Appear for CUET exam:** Take the Common University Entrance Test\n4. **Apply to CURAJ:** After CUET results, apply to CURAJ through their admission portal\n5. **Counselling/Merit List:** CURAJ will release merit lists based on CUET scores\n6. **Document Verification:** Submit original documents for verification\n7. **Pay Fees:** Complete fee payment to confirm admission\n\nKeep checking https://www.curaj.ac.in/ for admission notifications and important dates."
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "Scholarship at CURAJ", "Is there any scholarship",
+        "Financial aid", "Fee waiver", "Student welfare",
+        "Scholarship for SC ST", "Merit scholarship",
+        "Any fee concession"
+      ],
+      "responses": [
+        "CURAJ has a Student Aid/Welfare Fund (Rs. 125/semester contribution from all students) that supports students in need. Additionally:\n\n- Government scholarships for SC/ST/OBC/EWS students are applicable\n- Various central and state government scholarship schemes can be availed\n- Annual Cashless Insurance is provided for all students\n\nFor specific scholarship details and eligibility, visit https://www.curaj.ac.in/ or contact the Student Welfare office."
+      ]
+    },
+    {
+      "tag": "innovative_bed",
+      "patterns": [
+        "MSc BEd programme", "Innovative BEd programme",
+        "Integrated teacher education", "MSc BEd eligibility",
+        "BEd integrated programme", "Teaching programme CURAJ",
+        "MSc BEd Mathematics", "MSc BEd Physics", "MSc BEd Chemistry",
+        "MSc BEd Economics"
+      ],
+      "responses": [
+        "**M.Sc. B.Ed. (Innovative Integrated Programme) at CURAJ:**\n\nAvailable in: Mathematics, Economics, Physics, Chemistry\n\n*Eligibility:*\n- Mathematics: B.Sc. in Mathematics, 50% marks (45% reserved)\n- Economics: B.Sc./B.A./BBA with Economics as main subject, 50% marks (45% reserved)\n- Physics: B.Sc. with Physics or B.E./B.Tech, 50% marks (45% reserved)\n- Chemistry: B.Sc. with Chemistry as main subject, 50% marks (45% reserved)\n\nCUET Codes: SCQP19 (Maths), COQP10 (Economics), SCQP24 (Physics), SCQP08 (Chemistry)\n\nFee: Maths/Economics fall under Category A; Physics/Chemistry fall under Category B."
+      ]
+    },
+    {
+      "tag": "culture_media",
+      "patterns": [
+        "MA Culture Media and Studies", "Culture Media eligibility",
+        "Media studies at CURAJ", "MA Culture Media requirements"
+      ],
+      "responses": [
+        "**M.A. Culture Media and Studies Eligibility at CURAJ:**\nGraduation degree (three years) in any discipline from a recognized University with minimum 50% marks for General category and 45% for SC/ST/OBC/PWD/EWS candidates. International/Foreign students can also take admission through ICCR or any other proper channel.\n\nCUET PG Paper Code: COQP17\n\nFalls under Category B (with lab): Rs. 8,025/semester."
+      ]
+    },
+    {
+      "tag": "public_policy",
+      "patterns": [
+        "MA Public Policy", "Public Policy Law Governance",
+        "PPLG eligibility", "MA Public Policy requirements",
+        "Public Policy admission"
+      ],
+      "responses": [
+        "**M.A. Public Policy, Law and Governance Eligibility at CURAJ:**\nBachelor's Degree in any discipline from any recognized University with minimum 50% marks or equivalent grade for general category and 45% for SC/ST/OBC/PWD/EWS candidates.\n\nCUET PG Paper Code: HUQP18\n\nFalls under Category A (no lab): Rs. 6,525/semester."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "I don't know", "What", "Huh", "Can you help me",
+        "I need help", "Help me", "What can you do",
+        "What do you know", "Tell me something"
+      ],
+      "responses": [
+        "I can help you with information about CURAJ including:\n- Admission process and CUET details\n- UG and PG programmes\n- Fee structure\n- Eligibility criteria for various courses\n- Hostel and campus facilities\n- Contact information\n\nPlease ask me a specific question!",
+        "I'm the CURAJ chatbot. I can answer questions about admissions, courses, fees, eligibility, hostel, and more. What would you like to know?",
+        "I didn't quite understand that. Could you please rephrase your question? I can help with CURAJ admissions, fees, courses, and eligibility information."
+      ]
+    }
+  ]
+}
