@@ -127,12 +127,18 @@ This is an academic/student project demonstrating **NLP, intent classification, 
 
 University information can change over time. Important admission, eligibility, and fee details should always be verified against the latest official CURAJ notifications.
 
-## 👤 Author
+## 👥 Team Members
 
-**Yash Verma**
+### Yash Verma
 
-M.Sc. Computer Science (Big Data Analytics)  
+M.Sc. Computer Science (Big Data Analytics)
 Central University of Rajasthan
+
+### Vineet Yadav
+
+M.Sc. Computer Science (Big Data Analytics)
+Central University of Rajasthan
+
 
 ## 📜 License
 
